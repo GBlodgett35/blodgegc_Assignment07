@@ -1,0 +1,16 @@
+Greg Blodgett
+Tiffany Litteral 
+
+-Create an array of letters. 
+-Then create an array of counters for each letter
+-Create variables for the greatest length and average word length.
+-Make a variable for the amount of Q’s in each word.
+-To find the average word length, for each word, find the word length and enter it into an array
+	-Find the average of the values in the array.
+-Write a for loop that goes each letter in the word.
+	-Write yet another for loop within that for loop that checks against the array of letters and then ups the counter for that letter. 
+	-If it is a Q, add one to the QCounter. 
+		-Then after each letter, check the Qcounter against the biggest amount of Q’s found in a single word so far.
+		-If it’s bigger, the biggest amount of Q’s in a word becomes that number.
+-After all the loops have ran, sort the array of letter counters.
+	-The last element in the array will be the most used letter. 
